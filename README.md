@@ -1,4 +1,4 @@
-# python-gen-docstrings
+# docstringr.py
 
 For the lazy.
 
@@ -10,11 +10,7 @@ Feel free to adapt. If you have made changes that you would like to contribute, 
 
 Some type guessing is done if parameters have default values. Generated docstrings have the following format:
 
-<<<<<<< HEAD
-.. code:: python
-=======
 .. code-block:: python
->>>>>>> Initial commit
 
     """
     Missing documentation
@@ -31,27 +27,16 @@ Some type guessing is done if parameters have default values. Generated docstrin
     Value : Type
         Description
     """
-<<<<<<< HEAD
-    
-=======
 
-
->>>>>>> Initial commit
 Usage
 -----
 
 .. code::
-<<<<<<< HEAD
-    python gen_docstrings.py PATH_TO_PYTHON_FILES
-    
-=======
 
     python gen_docstrings.py PATH_TO_PYTHON_FILES
 
->>>>>>> Initial commit
 Recursively (!) lists all `.py` files in directory and inserts docstrings
 at function bodies, writing result to file suffixed with `_docstringed`.
-
 
 TODO
 ----
