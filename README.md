@@ -30,7 +30,7 @@ Usage
 -----
 
 ```
-    python gen_docstrings.py PATH_TO_PYTHON_FILES
+python gen_docstrings.py PATH_TO_PYTHON_FILES
 ```
 
 Recursively (!) lists all `.py` files in directory and inserts docstrings
